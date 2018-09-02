@@ -2,7 +2,7 @@
 
 Following is the approach I took for the Analytics Vidhya Enigma-codeFest-Machine-Learning Competition,I got a public Leaderboard loss of 787.56:
 
-1. My solution approach was simple and straight forward. First, I did data visuluziation and saw the distribution of data and got an idea of what regression algorithm to use. I used seaborn to plot and find correlation to find important features on first look. I plotted the histrogram of the data and found that variables like Views and Reputuation are distributed with high values and UserName,ID features are unnecessary features which can be removed.
+1. My solution approach was simple and straight forward. First, I did data visualization and saw the distribution of data and got an idea of what regression algorithm to use. I used seaborn to plot and find correlation to find important features on first look. I plotted the histrogram of the data and found that variables like Views and Reputuation are distributed with high values and UserName,ID features are unnecessary features which can be removed.
 
 2. Next I spent most of my time on data preprocessing where I removed unwanted features,scaling,filtering and did feature engineering which was a key element for my success. I used Binarizer as a new feature in my training data which could say if Answers features has some value or not above a thershold.
 
